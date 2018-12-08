@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Parallax Template</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/audio_library.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="css/all.min.css" rel="stylesheet">
+</head>
+<body>
+	
+	<!-- Main wrapper -->
+	<div class="Wrapper">
+		
+		<!-- A grey horizontal navbar that becomes vertical on small screens -->
+		<nav class="navbar fixed-top navbar-dark bg-black navbar-expand-lg" style="" id="navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="javascript:void(0)">Logo goes here</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navb">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="./index.html" class="nav-link" href="javascript:void(0)">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="./music.html" class="nav-link" href="javascript:void(0)">Music</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Main content -->
+		<main>
+			
+			
+			<section class="section bg-turq">
+				<div class="container small-container">
+					<h1 class="large">Music Page</h1>
+					<p class="large">This is the music page</p>
+				</div>
+			</section>
+			
+			<section class="section section__small">
+				<div class="container">
+					
+					<h1 class="text-center mb-3">Youtube showcase</h1>
+					
+
+					<!-- justify-content-between -->
+					<div class="d-flex flex-wrap bd-highlight mb-3" id="videoContainer"></div>
+					
+				</div>
+			</section>
+			
+			
+			<section class="section section__small bg-grey">
+				<div class="container">
+					
+					<h1 class="text-center mb-3">Music showcase</h1>
+					
+					<div class="audioLibrary d-flex  justify-content-center bd-highlight mb-3 flex-wrap">
+						
+						
+						<!-- Song -->
+						<div class="song m-3">
+							<img src="./img/music/catsurf.jpg" class="img-fluid">
+							
+							<div class="song__container p-3">
+								<p>Song <small>by</small> Artist</p>
+								<!-- <audio controls>
+									<source src="music/song.mp3" type="audio/mpeg"/>
+									Your browser does not support the audio element.
+								</audio> -->
+								<div class="audio-player">
+									<div class="play-btn fa-play fas"></div>
+									<div class="player-controls scrubber">
+										<span id="seekObjContainer">
+											<input class="seekObj" type="range" value="0">
+										</span>
+										<br>
+										<small style="float: left; position: relative; left: 15px;" class="start-time">0:00</small>
+										<small style="float: right; position: relative; right: 20px;" class="end-time">0:00</small>
+									</div>
+									<div class="audio-wrapper" id="player-container" href="javascript:;">
+										<audio class="player">
+											<source src="music/song.mp3" type="audio/mp3"/>
+										</audio>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Song -->
+						<div class="song m-3">
+							<img src="./img/music/halo.jpg" class="img-fluid">
+							
+							<div class="song__container p-3">
+								<p>Song <small>by</small> Artist</p>
+								<!-- <audio controls>
+									<source src="music/song.mp3" type="audio/mpeg"/>
+									Your browser does not support the audio element.
+								</audio> -->
+								<div class="audio-player">
+									<div class="play-btn fa-play fas"></div>
+									<div class="player-controls scrubber">
+										<span id="seekObjContainer">
+											<input class="seekObj" type="range" value="0">
+										</span>
+										<br>
+										<small style="float: left; position: relative; left: 15px;" class="start-time">0:00</small>
+										<small style="float: right; position: relative; right: 20px;" class="end-time">0:00</small>
+									</div>
+									<div class="audio-wrapper" id="player-container" href="javascript:;">
+										<audio class="player">
+											<source src="music/song.mp3" type="audio/mp3"/>
+										</audio>
+									</div>
+									<!-- <div class="album-image" style="background-image: url('https://artwork-cdn.7static.com/static/img/sleeveart/00/051/614/0005161476_350.jpg')"></div> -->
+								</div>
+							</div>
+						</div>
+						<!--  -->
+						
+						<!-- Song -->
+						<div class="song m-3">
+							<img src="./img/music/ledzep.jpg" class="img-fluid">
+							
+							<div class="song__container p-3">
+								<p>Song <small>by</small> Artist</p>
+								<!-- <audio controls>
+									<source src="music/song.mp3" type="audio/mpeg"/>
+									Your browser does not support the audio element.
+								</audio> -->
+								<div class="audio-player">
+									<div class="play-btn fa-play fas"></div>
+									<div class="player-controls scrubber">
+										<span id="seekObjContainer">
+											<input class="seekObj" type="range" value="0">
+										</span>
+										<br>
+										<small style="float: left; position: relative; left: 15px;" class="start-time">0:00</small>
+										<small style="float: right; position: relative; right: 20px;" class="end-time">0:00</small>
+									</div>
+									<div class="audio-wrapper" id="player-container" href="javascript:;">
+										<audio class="player">
+											<source src="music/song.mp3" type="audio/mp3"/>
+										</audio>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--  -->
+						
+						<!-- Song -->
+						<div class="song m-3">
+							<img src="./img/music/catsurf.jpg" class="img-fluid">
+							
+							<div class="song__container p-3">
+								<p>Song <small>by</small> Artist</p>
+								<!-- <audio controls>
+									<source src="music/song.mp3" type="audio/mpeg"/>
+									Your browser does not support the audio element.
+								</audio> -->
+								<div class="audio-player">
+									<div class="play-btn fa-play fas"></div>
+									<div class="player-controls scrubber">
+										<span id="seekObjContainer">
+											<input class="seekObj" type="range" value="0">
+										</span>
+										<br>
+										<small style="float: left; position: relative; left: 15px;" class="start-time">0:00</small>
+										<small style="float: right; position: relative; right: 20px;" class="end-time">0:00</small>
+									</div>
+									<div class="audio-wrapper" id="player-container" href="javascript:;">
+										<audio class="player">
+											<source src="music/song.mp3" type="audio/mp3"/>
+										</audio>
+									</div>
+									<!-- <div class="album-image" style="background-image: url('https://artwork-cdn.7static.com/static/img/sleeveart/00/051/614/0005161476_350.jpg')"></div> -->
+								</div>
+							</div>
+						</div>
+						<!--  -->
+						
+					</div>
+				</div>
+			</section>
+			
+			<div class="footer bg-black">
+				<div class="container text-center">
+					<div class="phone">1(800) 234 5678</div>
+					<a href="mailto:someone@email.co.uk" class="email light-purple">someone@email.co.uk</a>
+					<ul class="links mb-3">
+						<li>Home</li>
+						<li>Music</li>
+					</ul>
+					<div class="socialIcons">
+						<span><img width="25" height="25" src="./img/social/fb.png"></span>
+						<span><img width="25" height="25" src="./img/social/insta.png"></span>
+						<span><img width="25" height="25" src="./img/social/twitter.png"></span>
+					</div>
+				</div>
+			</div>
+			
+			<div id="xyz"></div>
+
+		</main>
+	</div>
+	<!-- Main wrapper -->
+	
+	<!-- YT Player -->
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/YTPlayer.js"></script>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<!-- <script type="text/javascript" src="js/html5slider.js"></script> -->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/music_player.js"></script>
+	
+</body>
+</html>
