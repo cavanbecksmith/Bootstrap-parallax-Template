@@ -9,7 +9,7 @@
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
 var player = new Array();
-var videoIDs = ['54m4SDJiL6U', 'Bm81EQ2hgVE', 'vSCu48dF7K0', 'wG3Iz21wCkw', 'Mm0es1H1MWk', 'EfskK_MS_14'];
+var videoIDs = ['YP0K406LcPs', '_nfsUcuIV3M', 'vSCu48dF7K0', 'B1lNhNHdoPI', 'Mm0es1H1MWk', 'EfskK_MS_14'];
 var videoContainer = $$('#videoContainer')[0];
 function onYouTubeIframeAPIReady() {
 
